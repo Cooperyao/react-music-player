@@ -1,0 +1,21 @@
+.components-header {
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-bottom: 1px solid #ccc;
+  background: black;
+}
+.components-header .caption {
+  font-size: 20px;
+  text-indent: 20px;
+  color: white;
+}
+.components-header .fl {
+  float: left;
+}
+.components-header img {
+  height: 40px;
+  width: 40px;
+}
+.components-header h1 {
+  margin: 10px 0;
+}

@@ -1,0 +1,87 @@
+.player {
+  width: 800px;
+  float: left;
+  text-align: center;
+}
+.lrc {
+  width: 600px;
+  height: 544px;
+  float: left;
+  border-left: 1px solid #999;
+  text-align: center;
+  overflow: scroll;
+  padding: 50px;
+}
+.btn {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.btn img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 999;
+  animation: mymove 20s infinite linear;
+}
+@keyframes mymove {
+  from {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.control {
+  width: 500px;
+  margin-left: 160px;
+  text-align: center;
+  position: relative;
+}
+.control .play,
+.control .pause,
+.control .prev,
+.control .next {
+  width: 40px;
+  height: 40px;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+.control .volumeBox {
+  float: left;
+  width: 20%;
+  height: 20px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+.control .volumeBox .volume {
+  float: left;
+  width: 20px;
+}
+.control .volumeBox .components-progress {
+  display: none;
+}
+.control .volumeBox:hover .components-progress {
+  display: block;
+}
+.control .list {
+  text-align: right;
+  color: #859085;
+  cursor: pointer;
+}
