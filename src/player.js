@@ -15,7 +15,7 @@ class Player extends Component {
     constructor() {
         super();
         this.state = {
-            isPlay: true,
+            isPlay: false,
 						progress: 0,
 						volume: 0,
 						muted: false
@@ -34,7 +34,6 @@ class Player extends Component {
 					volume: volume,
 					progress: progress
 			});
-			// this.solve();
 		}
 		playPrev(){
 			Pubsub.publish('PLAY_PREV')

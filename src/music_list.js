@@ -3,7 +3,7 @@ export const MUSIC_LIST = [
                 id: 1,
                 title: "当战",
                 artist: "阿睿凌霓剑裳",
-                flie: "http://fs.w.kugou.com/201710232148/d5c0b9944964a232ab3ae716548a0961/G103/M00/10/" +
+                flie: "http://fs.w.kugou.com/201710241853/4238965f8fbebb1c948d7a0e3989e61d/G103/M00/10/" +
                                 "15/pw0DAFkew2OAFqxYADIFEQbaR6k512.mp3",
                 cover: "https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5" +
                                 "%2C92%2C30/sign=eb38c77cab44ad343ab28fd5b1cb6791/a5c27d1ed21b0ef461cefdcfd7c451d" +
@@ -20,7 +20,7 @@ export const MUSIC_LIST = [
                 id: 2,
                 title: "蛊梦",
                 artist: "小荣童鞋/馒头妞",
-                flie: "http://fs.w.kugou.com/201710232149/da8b68b55981a9989a4ad0c86c4fae9d/G005/M05/16/" +
+                flie: "http://fs.w.kugou.com/201710241854/fb23d648677cf8b4b480294cbb1baed2/G005/M05/16/" +
                                 "07/RQ0DAFS60vyAAetJAEs32miYes0751.mp3",
                 cover: "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C" +
                                 "5%2C150%2C50/sign=c1525770818ba61ecbe3c07d205dfc6f/0ff41bd5ad6eddc421bde5413adbb" +
@@ -43,7 +43,8 @@ export const MUSIC_LIST = [
                 id: 3,
                 title: "参商",
                 artist: "不才",
-                flie: "http://fs.w.kugou.com/201710232203/a43a78a31ff4bfcf5146ea885974565c/G013/M02/1B/1F/TQ0DAFUMMsmAOChEAEcFeFMgt9s960.mp3",
+                flie: "http://fs.w.kugou.com/201710241834/23c58b3a50efc31f6a34e97d9531ca75/G013/M02/1B/" +
+                                "1F/TQ0DAFUMMsmAOChEAEcFeFMgt9s960.mp3",
                 cover: "http://singerimg.kugou.com/uploadpic/softhead/400/20150821/20150821160527934958." +
                                 "jpg",
                 lrc: "作词：贰哲 作曲：潮汐-tide 编曲：潮汐-tide 震八方,如风剑,自当狂 破千山,斩巨浪,胜负间 侠名扬 NL不分：斩月光 做刀锋一点寒芒 邀天地赴这场侠" +
@@ -58,7 +59,7 @@ export const MUSIC_LIST = [
                 id: 4,
                 title: "我的一个道姑朋友",
                 artist: "以冬",
-                flie: "http://fs.w.kugou.com/201710232018/2a175e466584992d028e8a18b48d93ee/G077/M08/1C/" +
+                flie: "http://fs.w.kugou.com/201710241729/e2591f0e9e646b615a13514fc951a181/G077/M08/1C/" +
                                 "1F/jQ0DAFhSl4CAKq8gAEyvMRLkyyM578.mp3",
                 cover: "https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C" +
                                 "5%2C150%2C50/sign=a75e3d2e9222720e6fc3eaa81aa26123/5243fbf2b21193131ed767fc6f380" +
@@ -75,7 +76,7 @@ export const MUSIC_LIST = [
                 id: 5,
                 title: "白骨哀",
                 artist: "凌以轩",
-                flie: "http://fs.w.kugou.com/201710232105/05b5a378b1cf92fb5eadc654639d471c/G014/M0B/18/" +
+                flie: "http://fs.w.kugou.com/201710241831/fae66821a79e5f1d36015800d57366bd/G014/M0B/18/" +
                                 "03/Tg0DAFUJgl6AByoaAFOQlDnaggU559.mp3",
                 cover: "http://imge.kugou.com/stdmusic/20150831/20150831175929288341.jpg",
                 lrc: "作词：贰哲 作曲：潮汐-tide 编曲：潮汐-tide 震八方,如风剑,自当狂 破千山,斩巨浪,胜负间 侠名扬 NL不分：斩月光 做刀锋一点寒芒 邀天地赴这场侠" +
@@ -90,7 +91,7 @@ export const MUSIC_LIST = [
                 id: 6,
                 title: "剑啸江湖",
                 artist: "怜音缈儿／小曲儿／醋米／潇子墨／嗷呜／凌之轩／冰冰火",
-                flie: "http://fs.w.kugou.com/201710232151/f151099c22226b9d4afc6ee84c88372e/G014/M02/0E/" +
+                flie: "http://fs.w.kugou.com/201710241856/25a81e96205c3f918c6ccfc01d8358be/G014/M02/0E/" +
                                 "08/Tg0DAFULd8iATLGuACSGp3wN9kk944.mp3",
                 cover: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=150843043713" +
                                 "6&di=5db771bf24ab3ae0b20f803d0adb1a92&imgtype=0&src=http%3A%2F%2Fpic.duowan.com%" +

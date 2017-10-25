@@ -12,7 +12,7 @@ class App extends Component {
 				super();
 				this.state = {
 						musicList: MUSIC_LIST,
-						currentMusic: MUSIC_LIST[0]
+						currentMusic: MUSIC_LIST[1]
 				}
 		}
 		playMusic(musicSong) {
