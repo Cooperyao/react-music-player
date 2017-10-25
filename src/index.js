@@ -7,12 +7,13 @@ import MusicList from './musiclist';
 import {Router, IndexRoute, Route, hashHistory} from 'react-router';
 import Pubsub from 'pubsub-js';
 
+
 class App extends Component {
 		constructor() {
 				super();
 				this.state = {
 						musicList: MUSIC_LIST,
-						currentMusic: MUSIC_LIST[1]
+						currentMusic: MUSIC_LIST[0]
 				}
 		}
 		playMusic(musicSong) {

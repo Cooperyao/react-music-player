@@ -3,7 +3,7 @@ export const MUSIC_LIST = [
                 id: 1,
                 title: "当战",
                 artist: "阿睿凌霓剑裳",
-                flie: "http://fs.w.kugou.com/201710241853/4238965f8fbebb1c948d7a0e3989e61d/G103/M00/10/" +
+                flie: "http://fs.w.kugou.com/201710260221/22bf53ab328ec11d6bfff5a199495595/G103/M00/10/" +
                                 "15/pw0DAFkew2OAFqxYADIFEQbaR6k512.mp3",
                 cover: "https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5" +
                                 "%2C92%2C30/sign=eb38c77cab44ad343ab28fd5b1cb6791/a5c27d1ed21b0ef461cefdcfd7c451d" +

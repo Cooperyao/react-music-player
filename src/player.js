@@ -56,7 +56,7 @@ class Player extends Component {
     componentWillUpdate() {
       let audio = this.refs.audio;
       if (this.state.isPlay) {
-          audio.play();
+					audio.play();
       } else {
           audio.pause();
       }
@@ -80,16 +80,6 @@ class Player extends Component {
 			let audio = this.refs.audio;
 			audio.volume = (progress/100);
 		}
-		// solve(){
-		// 	let lrc = this.props.currentMusic.lrc;
-		// 	let newLrc = lrc.split(' ').map((item) => {
-		// 		return item;
-		// 	});
-
-		// 	console.log('====================================');
-		// 	console.log(newLrc);
-		// 	console.log('====================================');
-		// }
     render() {
 			let lrc = this.props.currentMusic.lrc;
 			let newLrc = lrc.split(' ').map((item) => {
